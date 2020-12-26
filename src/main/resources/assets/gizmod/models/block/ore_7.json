@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gizmod:blocks/oiopi",
+    "up": "gizmod:blocks/oiopi",
+    "north": "gizmod:blocks/oiopi",
+    "east": "gizmod:blocks/oiopi",
+    "south": "gizmod:blocks/oiopi",
+    "west": "gizmod:blocks/oiopi",
+    "particle": "gizmod:blocks/oiopi"
+  }
+}

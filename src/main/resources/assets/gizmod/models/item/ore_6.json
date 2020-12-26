@@ -1,5 +1,5 @@
 {
-  "parent": "gizmod:block/opipoi",
+  "parent": "gizmod:block/ore_6",
   "display": {
     "thirdperson": {
       "rotation": [
