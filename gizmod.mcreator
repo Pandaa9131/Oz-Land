@@ -290,15 +290,6 @@
       "registry_name": "chickky"
     },
     {
-      "name": "Pandaa",
-      "type": "block",
-      "sortid": 37,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "pandaa"
-    },
-    {
       "name": "Opipoi",
       "type": "block",
       "sortid": 38,
@@ -306,6 +297,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "opipoi"
+    },
+    {
+      "name": "Pandaa2",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pandaa_2"
     }
   ],
   "variable_elements": [],
@@ -317,7 +317,6 @@
       "item.gizmod.redsandstonesword": "Red Sandstone Sword",
       "entity.gizmod.nsw_villager": "Outbackvillager",
       "entity.gizmod.tas_villager": "Outbackvillager",
-      "block.gizmod.pandaa": "Pandaa",
       "item.gizmod.vegemite": "Vegemite",
       "item.gizmod.wa_villager_spawn_egg": "Outbackvillager Spawn Egg",
       "entity.gizmod.nt_villager": "Outbackvillager",
@@ -336,6 +335,7 @@
       "itemGroup.taboz": "Oz",
       "item.gizmod.redsandstonehoe": "Red Sandstone Hoe",
       "block.gizmod.saltbush": "Saltbush",
+      "block.gizmod.pandaa_2": "Pandaa 2",
       "item.gizmod.sa_villager_spawn_egg": "Outbackvillager Spawn Egg",
       "item.gizmod.qld_villager_spawn_egg": "Outbackvillager Spawn Egg",
       "biome.gizmod.nsw": "NSW",

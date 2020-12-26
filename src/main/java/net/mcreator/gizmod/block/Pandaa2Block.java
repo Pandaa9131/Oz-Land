@@ -19,11 +19,11 @@ import java.util.List;
 import java.util.Collections;
 
 @GizmodModElements.ModElement.Tag
-public class PandaaBlock extends GizmodModElements.ModElement {
-	@ObjectHolder("gizmod:pandaa")
+public class Pandaa2Block extends GizmodModElements.ModElement {
+	@ObjectHolder("gizmod:pandaa_2")
 	public static final Block block = null;
-	public PandaaBlock(GizmodModElements instance) {
-		super(instance, 37);
+	public Pandaa2Block(GizmodModElements instance) {
+		super(instance, 39);
 	}
 
 	@Override
@@ -34,7 +34,7 @@ public class PandaaBlock extends GizmodModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).lightValue(0));
-			setRegistryName("pandaa");
+			setRegistryName("pandaa_2");
 		}
 
 		@Override
