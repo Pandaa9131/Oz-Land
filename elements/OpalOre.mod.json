@@ -24,7 +24,7 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Ore Opal",
+    "name": "Opal Ore",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -35,7 +35,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Opal"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -67,7 +67,7 @@
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 2,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -101,8 +101,8 @@
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 8,
-    "frequencyOnChunk": 24,
+    "frequencyPerChunks": 4,
+    "frequencyOnChunk": 5,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 120
   }

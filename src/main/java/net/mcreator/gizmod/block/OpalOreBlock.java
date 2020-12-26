@@ -27,6 +27,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.gizmod.itemgroup.OzItemGroup;
+import net.mcreator.gizmod.item.OpalItem;
 import net.mcreator.gizmod.GizmodModElements;
 
 import java.util.Random;
@@ -48,7 +49,7 @@ public class OpalOreBlock extends GizmodModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.GLASS).hardnessAndResistance(1f, 10f).lightValue(0).harvestLevel(1)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.GLASS).hardnessAndResistance(1f, 10f).lightValue(0).harvestLevel(2)
 					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("opal_ore");
 		}
@@ -58,7 +59,7 @@ public class OpalOreBlock extends GizmodModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(OpalItem.block, (int) (1)));
 		}
 	}
 	@Override
@@ -80,7 +81,7 @@ public class OpalOreBlock extends GizmodModElements.ModElement {
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 24)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(8, 0, 0, 120))));
+			}), block.getDefaultState(), 5)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(4, 0, 0, 120))));
 		}
 	}
 }
