@@ -27,7 +27,7 @@ public class RedsandstonehoeItem extends GizmodModElements.ModElement {
 			}
 
 			public float getEfficiency() {
-				return 4f;
+				return 5f;
 			}
 
 			public float getAttackDamage() {

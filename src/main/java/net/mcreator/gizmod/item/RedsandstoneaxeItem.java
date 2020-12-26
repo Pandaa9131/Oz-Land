@@ -39,7 +39,7 @@ public class RedsandstoneaxeItem extends GizmodModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 2;
+				return 5;
 			}
 
 			public Ingredient getRepairMaterial() {

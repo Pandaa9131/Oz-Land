@@ -42,10 +42,14 @@
     "aiPathNodeType": "DEFAULT",
     "flammability": 200,
     "fireSpreadSpeed": 120,
-    "frequencyOnChunks": 5,
+    "frequencyOnChunks": 2,
     "spawnWorldTypes": [
       "Surface"
     ],
-    "restrictionBiomes": []
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Wa"
+      }
+    ]
   }
 }
