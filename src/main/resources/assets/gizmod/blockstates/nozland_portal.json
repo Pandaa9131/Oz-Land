@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "gizmod:block/nozland_portal_ew"
+    },
+    "axis=x": {
+      "model": "gizmod:block/nozland_portal_ns"
+    }
+  }
+}

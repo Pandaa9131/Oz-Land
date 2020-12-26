@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gizmod:blocks/ore_opal",
+    "up": "gizmod:blocks/ore_opal",
+    "north": "gizmod:blocks/ore_opal",
+    "east": "gizmod:blocks/ore_opal",
+    "south": "gizmod:blocks/ore_opal",
+    "west": "gizmod:blocks/ore_opal",
+    "particle": "gizmod:blocks/ore_opal"
+  }
+}

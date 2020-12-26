@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "gizmod:blocks/saltbush",
+    "particle": "gizmod:blocks/saltbush"
+  }
+}

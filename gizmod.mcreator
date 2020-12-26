@@ -1,0 +1,372 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Wa",
+      "type": "biome",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wa"
+    },
+    {
+      "name": "Sa",
+      "type": "biome",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sa"
+    },
+    {
+      "name": "Nt",
+      "type": "biome",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nt"
+    },
+    {
+      "name": "Qld",
+      "type": "biome",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qld"
+    },
+    {
+      "name": "Nsw",
+      "type": "biome",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nsw"
+    },
+    {
+      "name": "Vic",
+      "type": "biome",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vic"
+    },
+    {
+      "name": "Tas",
+      "type": "biome",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tas"
+    },
+    {
+      "name": "WaVillager",
+      "type": "mob",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wa_villager"
+    },
+    {
+      "name": "SaVillager",
+      "type": "mob",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sa_villager"
+    },
+    {
+      "name": "NtVillager",
+      "type": "mob",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nt_villager"
+    },
+    {
+      "name": "QldVillager",
+      "type": "mob",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qld_villager"
+    },
+    {
+      "name": "NswVillager",
+      "type": "mob",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nsw_villager"
+    },
+    {
+      "name": "VicVillager",
+      "type": "mob",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vic_villager"
+    },
+    {
+      "name": "TasVillager",
+      "type": "mob",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tas_villager"
+    },
+    {
+      "name": "Beer",
+      "type": "food",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beer"
+    },
+    {
+      "name": "Oz",
+      "type": "tab",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oz"
+    },
+    {
+      "name": "Vegemite",
+      "type": "food",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vegemite"
+    },
+    {
+      "name": "Saltbush",
+      "type": "plant",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saltbush"
+    },
+    {
+      "name": "Opal",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opal"
+    },
+    {
+      "name": "Redsandstoneaxe",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redsandstoneaxe"
+    },
+    {
+      "name": "Redsandstoneshovel",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redsandstoneshovel"
+    },
+    {
+      "name": "Redsandstonesword",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redsandstonesword"
+    },
+    {
+      "name": "Redsandstonehoe",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redsandstonehoe"
+    },
+    {
+      "name": "OpalOre",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opal_ore"
+    },
+    {
+      "name": "Redsandstonepick",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redsandstonepick"
+    },
+    {
+      "name": "Craftredsandstonepick",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craftredsandstonepick"
+    },
+    {
+      "name": "Craftredsandstoneaxe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craftredsandstoneaxe"
+    },
+    {
+      "name": "Craftredsandstoneshovel",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craftredsandstoneshovel"
+    },
+    {
+      "name": "Craftredsandstonesword",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craftredsandstonesword"
+    },
+    {
+      "name": "Craftredsandstonehoe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craftredsandstonehoe"
+    },
+    {
+      "name": "Nozland",
+      "type": "dimension",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nozland"
+    },
+    {
+      "name": "Chickky",
+      "type": "mob",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chickky"
+    },
+    {
+      "name": "Pandaa",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pandaa"
+    },
+    {
+      "name": "Opipoi",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opipoi"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "biome.gizmod.nt": "NT",
+      "block.gizmod.opipoi": "Opipoi",
+      "item.gizmod.redsandstonesword": "Red Sandstone Sword",
+      "entity.gizmod.nsw_villager": "Outbackvillager",
+      "entity.gizmod.tas_villager": "Outbackvillager",
+      "block.gizmod.pandaa": "Pandaa",
+      "item.gizmod.vegemite": "Vegemite",
+      "item.gizmod.wa_villager_spawn_egg": "Outbackvillager Spawn Egg",
+      "entity.gizmod.nt_villager": "Outbackvillager",
+      "item.gizmod.tas_villager_spawn_egg": "Outbackvillager Spawn Egg",
+      "item.gizmod.beer": "Beer",
+      "biome.gizmod.qld": "QLD",
+      "entity.gizmod.sa_villager": "Outbackvillager",
+      "block.gizmod.opal_ore": "Ore Opal",
+      "item.gizmod.redsandstonepick": "Red Sandstone Pickaxe",
+      "biome.gizmod.tas": "TAS",
+      "item.gizmod.vic_villager_spawn_egg": "Outbackvillager Spawn Egg",
+      "entity.gizmod.chickky": "Chickky",
+      "item.gizmod.nsw_villager_spawn_egg": "Outbackvillager Spawn Egg",
+      "entity.gizmod.vic_villager": "Outbackvillager",
+      "item.gizmod.nozland": "Nozland Portal Igniter",
+      "itemGroup.taboz": "Oz",
+      "item.gizmod.redsandstonehoe": "Red Sandstone Hoe",
+      "block.gizmod.saltbush": "Saltbush",
+      "item.gizmod.sa_villager_spawn_egg": "Outbackvillager Spawn Egg",
+      "item.gizmod.qld_villager_spawn_egg": "Outbackvillager Spawn Egg",
+      "biome.gizmod.nsw": "NSW",
+      "entity.gizmod.qld_villager": "Outbackvillager",
+      "item.gizmod.redsandstoneshovel": "Red Sandstone Shovel",
+      "biome.gizmod.vic": "VIC",
+      "entity.gizmod.wa_villager": "Outbackvillager",
+      "biome.gizmod.sa": "SA",
+      "item.gizmod.chickky_spawn_egg": "Chickky Spawn Egg",
+      "biome.gizmod.wa": "WA",
+      "item.gizmod.redsandstoneaxe": "Red Sandstone Axe",
+      "item.gizmod.opal": "Opal",
+      "item.gizmod.nt_villager_spawn_egg": "Outbackvillager Spawn Egg"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "gizmod",
+    "modName": "GizMod",
+    "version": "1.0.0",
+    "author": "gizmo, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.gizmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}

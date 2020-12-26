@@ -1,0 +1,75 @@
+{
+  "_fv": 13,
+  "_type": "dimension",
+  "definition": {
+    "portalFrame": {
+      "value": "CUSTOM:OpalOre"
+    },
+    "portalParticles": {
+      "value": "SMOKE_NORMAL"
+    },
+    "portalLuminance": 0.0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Nozland Portal Igniter",
+    "igniterTab": {
+      "value": "CUSTOM:Oz"
+    },
+    "texture": "vegemite",
+    "portalTexture": "ore_opal",
+    "enablePortal": true,
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Wa"
+      },
+      {
+        "value": "CUSTOM:Sa"
+      },
+      {
+        "value": "CUSTOM:Nt"
+      },
+      {
+        "value": "CUSTOM:Qld"
+      },
+      {
+        "value": "CUSTOM:Nsw"
+      },
+      {
+        "value": "CUSTOM:Vic"
+      },
+      {
+        "value": "CUSTOM:Tas"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.STONE#0"
+    },
+    "fluidBlock": {
+      "value": "Blocks.FLOWING_WATER"
+    },
+    "airColor": {
+      "value": -4138753,
+      "frgbvalue": [
+        0.753,
+        0.847,
+        1.0
+      ],
+      "fvalue": [
+        0.753,
+        0.847,
+        1.0
+      ],
+      "falpha": 1.0
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "hasWeather": true,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true
+  }
+}

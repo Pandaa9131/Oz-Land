@@ -1,0 +1,97 @@
+{
+  "_fv": 13,
+  "_type": "biome",
+  "definition": {
+    "name": "QLD",
+    "groundBlock": {
+      "value": "Blocks.DIRT#1"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.STONE#1"
+    },
+    "treeType": 0,
+    "vanillaTreeType": "Mega pine trees",
+    "minHeight": 7,
+    "spawnVines": false,
+    "treeVines": {
+      "value": ""
+    },
+    "treeStem": {
+      "value": ""
+    },
+    "treeBranch": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "treesPerChunk": 5,
+    "grassPerChunk": 2,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 3,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPathcesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 2,
+    "rainingPossibility": 0.1,
+    "temperature": 0.8,
+    "baseHeight": 0.1,
+    "heightVariation": 0.4,
+    "spawnBiome": true,
+    "biomeWeight": 1024,
+    "biomeType": "WARM",
+    "biomeCategory": "JUNGLE",
+    "parent": {
+      "value": "No parent"
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnPillagerOutpost": true,
+    "villageType": "plains",
+    "spawnWoodlandMansion": true,
+    "spawnJungleTemple": true,
+    "spawnDesertPyramid": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "oceanRuinType": "NONE",
+    "biomeDictionaryTypes": [],
+    "defaultFeatures": [
+      "Caves",
+      "MonsterRooms",
+      "Structures",
+      "Ores"
+    ],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityAnimal"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityBee"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:QldVillager"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "creature"
+      }
+    ]
+  }
+}

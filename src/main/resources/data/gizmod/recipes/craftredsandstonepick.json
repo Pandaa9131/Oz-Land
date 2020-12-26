@@ -1,0 +1,30 @@
+{
+  "group": "gizmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_sandstone"
+    },
+    "1": {
+      "item": "minecraft:red_sandstone"
+    },
+    "2": {
+      "item": "minecraft:red_sandstone"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "gizmod:redsandstonepick",
+    "count": 1
+  }
+}
