@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "gizmod:block/opipoi"
+      "model": "gizmod:block/ore_3"
     }
   }
 }

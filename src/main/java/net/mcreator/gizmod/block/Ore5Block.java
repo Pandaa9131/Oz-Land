@@ -33,11 +33,11 @@ import java.util.List;
 import java.util.Collections;
 
 @GizmodModElements.ModElement.Tag
-public class OpipoiBlock extends GizmodModElements.ModElement {
-	@ObjectHolder("gizmod:opipoi")
+public class Ore5Block extends GizmodModElements.ModElement {
+	@ObjectHolder("gizmod:ore_5")
 	public static final Block block = null;
-	public OpipoiBlock(GizmodModElements instance) {
-		super(instance, 38);
+	public Ore5Block(GizmodModElements instance) {
+		super(instance, 44);
 	}
 
 	@Override
@@ -48,7 +48,7 @@ public class OpipoiBlock extends GizmodModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).lightValue(0));
-			setRegistryName("opipoi");
+			setRegistryName("ore_5");
 		}
 
 		@Override
@@ -73,7 +73,7 @@ public class OpipoiBlock extends GizmodModElements.ModElement {
 						return false;
 					return super.place(world, generator, rand, pos, config);
 				}
-			}.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("opipoi", "opipoi", blockAt -> {
+			}.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("ore_5", "ore_5", blockAt -> {
 				boolean blockCriteria = false;
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;

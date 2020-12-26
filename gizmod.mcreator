@@ -290,22 +290,85 @@
       "registry_name": "chickky"
     },
     {
-      "name": "Opipoi",
+      "name": "Ore1",
       "type": "block",
-      "sortid": 38,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "opipoi"
+      "registry_name": "ore_1"
     },
     {
-      "name": "Pandaa2",
+      "name": "Ore2",
       "type": "block",
-      "sortid": 39,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "pandaa_2"
+      "registry_name": "ore_2"
+    },
+    {
+      "name": "Ore3",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ore_3"
+    },
+    {
+      "name": "Ore4",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ore_4"
+    },
+    {
+      "name": "Ore5",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ore_5"
+    },
+    {
+      "name": "Ore6",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ore_6"
+    },
+    {
+      "name": "Ore7",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ore_7"
+    },
+    {
+      "name": "Ore8",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ore_8"
+    },
+    {
+      "name": "Ore9",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ore_9"
     }
   ],
   "variable_elements": [],
@@ -313,7 +376,6 @@
   "language_map": {
     "en_us": {
       "biome.gizmod.nt": "NT",
-      "block.gizmod.opipoi": "Opipoi",
       "item.gizmod.redsandstonesword": "Red Sandstone Sword",
       "entity.gizmod.nsw_villager": "Outbackvillager",
       "entity.gizmod.tas_villager": "Outbackvillager",
@@ -335,20 +397,28 @@
       "itemGroup.taboz": "Oz",
       "item.gizmod.redsandstonehoe": "Red Sandstone Hoe",
       "block.gizmod.saltbush": "Saltbush",
-      "block.gizmod.pandaa_2": "Pandaa 2",
+      "block.gizmod.ore_6": "Opipoi",
       "item.gizmod.sa_villager_spawn_egg": "Outbackvillager Spawn Egg",
       "item.gizmod.qld_villager_spawn_egg": "Outbackvillager Spawn Egg",
+      "block.gizmod.ore_7": "Opipoi",
       "biome.gizmod.nsw": "NSW",
+      "block.gizmod.ore_4": "Opipoi",
       "entity.gizmod.qld_villager": "Outbackvillager",
       "item.gizmod.redsandstoneshovel": "Red Sandstone Shovel",
+      "block.gizmod.ore_5": "Opipoi",
       "biome.gizmod.vic": "VIC",
       "entity.gizmod.wa_villager": "Outbackvillager",
+      "block.gizmod.ore_2": "Opipoi",
+      "block.gizmod.ore_3": "Opipoi",
+      "block.gizmod.ore_1": "Opipoi",
       "biome.gizmod.sa": "SA",
       "item.gizmod.chickky_spawn_egg": "Chickky Spawn Egg",
       "biome.gizmod.wa": "WA",
       "item.gizmod.redsandstoneaxe": "Red Sandstone Axe",
       "item.gizmod.opal": "Opal",
-      "item.gizmod.nt_villager_spawn_egg": "Outbackvillager Spawn Egg"
+      "block.gizmod.ore_8": "Opipoi",
+      "item.gizmod.nt_villager_spawn_egg": "Outbackvillager Spawn Egg",
+      "block.gizmod.ore_9": "Opipoi"
     }
   },
   "workspaceSettings": {
