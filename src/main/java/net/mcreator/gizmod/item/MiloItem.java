@@ -6,10 +6,10 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.item.UseAction;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.Food;
 
+import net.mcreator.gizmod.itemgroup.OzItemGroup;
 import net.mcreator.gizmod.GizmodModElements;
 
 @GizmodModElements.ModElement.Tag
@@ -26,7 +26,7 @@ public class MiloItem extends GizmodModElements.ModElement {
 	}
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
-			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64).rarity(Rarity.COMMON)
+			super(new Item.Properties().group(OzItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON)
 					.food((new Food.Builder()).hunger(10).saturation(1f).setAlwaysEdible().build()));
 			setRegistryName("milo");
 		}
