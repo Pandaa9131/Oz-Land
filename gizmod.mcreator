@@ -288,6 +288,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "chickky"
+    },
+    {
+      "name": "Milo",
+      "type": "food",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "milo"
     }
   ],
   "variable_elements": [],
@@ -295,6 +304,7 @@
   "language_map": {
     "en_us": {
       "biome.gizmod.nt": "NT",
+      "item.gizmod.milo": "Milo",
       "item.gizmod.redsandstonesword": "Red Sandstone Sword",
       "entity.gizmod.nsw_villager": "Outbackvillager",
       "entity.gizmod.tas_villager": "Outbackvillager",
