@@ -297,6 +297,32 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "milo"
+    },
+    {
+      "name": "Coffee",
+      "type": "food",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coffee"
+    },
+    {
+      "name": "CoffeeEffect",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coffee_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -304,6 +330,7 @@
   "language_map": {
     "en_us": {
       "biome.gizmod.nt": "NT",
+      "item.gizmod.coffee": "Coffee",
       "item.gizmod.milo": "Milo",
       "item.gizmod.redsandstonesword": "Red Sandstone Sword",
       "entity.gizmod.nsw_villager": "Outbackvillager",
